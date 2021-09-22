@@ -29,6 +29,7 @@ export default function StockData() {
   }
   return (
     <div className="layout-column align-items-center mt-50">
+      <h1>Hola a todos</h1>
       <section className="layout-row align-items-center justify-content-center">
         <input type="text" className="large" placeholder="5-January-2000" id="app-input" data-testid="app-input" value={dateToSearch} onChange={handleOnChange}/>
         <button className="" id="submit-button" data-testid="submit-button" onClick={handleSubmit}>Search</button>
